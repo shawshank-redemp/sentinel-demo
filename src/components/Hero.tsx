@@ -9,7 +9,6 @@ export function Hero({ onTrigger, phase }: HeroProps) {
   return (
     <div className="hero">
       <div className="hero-badges">
-        <span className="badge badge-hackathon">🏆 TrueForge × Polaris Hackathon</span>
         <span className="badge badge-java">Java 21</span>
         <span className="badge badge-k8s">Kubernetes</span>
         <span className="badge badge-claude">Claude AI</span>

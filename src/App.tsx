@@ -51,33 +51,6 @@ export default function App() {
               </button>
             )}
 
-            <div className="requirements-card">
-              <div className="req-title">Hackathon Requirements</div>
-              <div className="req-list">
-                <div className="req-item req-met">
-                  <span className="req-check">✓</span>
-                  <div>
-                    <div className="req-name">Real tool reached</div>
-                    <div className="req-desc">K8s MCP connector calls kubectl on a live Kind cluster</div>
-                  </div>
-                </div>
-                <div className="req-item req-met">
-                  <span className="req-check">✓</span>
-                  <div>
-                    <div className="req-name">Code run in sandbox</div>
-                    <div className="req-desc">Daytona executes the patch script in an isolated environment</div>
-                  </div>
-                </div>
-                <div className="req-item req-met">
-                  <span className="req-check">✓</span>
-                  <div>
-                    <div className="req-name">Pause before irreversible</div>
-                    <div className="req-desc">ConsoleApprovalHandler blocks until human approves or denies</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div className="stack-card">
               <div className="stack-title">Tech Stack</div>
               <div className="stack-chips">

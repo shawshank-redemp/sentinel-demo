@@ -36,11 +36,6 @@ export function Hero({ onTrigger, phase }: HeroProps) {
           <span className="hero-stat-value">&lt; 30s</span>
           <span className="hero-stat-label">Detection to fix</span>
         </div>
-        <div className="hero-stat-divider" />
-        <div className="hero-stat">
-          <span className="hero-stat-value">3/3</span>
-          <span className="hero-stat-label">Hackathon requirements</span>
-        </div>
       </div>
 
       {idle && (

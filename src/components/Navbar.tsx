@@ -7,7 +7,7 @@ export function Navbar() {
       </div>
       <div className="navbar-links">
         <a
-          href="https://github.com/shawshank-redemp/k8s-pod-healer"
+          href="https://github.com/shawshank-redemp/k8s-sentinal-agent"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link"
@@ -18,7 +18,7 @@ export function Navbar() {
           GitHub
         </a>
         <a
-          href="https://github.com/shawshank-redemp/k8s-pod-healer/blob/main/README.md"
+          href="k8s-sentinal-agent/blob/main/README.md"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link"
